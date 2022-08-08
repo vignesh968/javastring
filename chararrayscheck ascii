@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+    Scanner s=new Scanner(System.in);
+    String a=s.nextLine();
+    char c[]=new char[a.length()];
+    a.getChars(0,a.length(),c,0);
+    for(int j=0;j<c.length;j++)
+    {
+    System.out.println((int)c[j]);
+    }
+ 
+	}
+}
+//abcd
+97 98 99 100
