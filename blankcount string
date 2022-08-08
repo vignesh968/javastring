@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+    Scanner s=new Scanner(System.in);
+    String a=s.nextLine();
+    int c=0;
+    a=a.toUpperCase();
+    for(int j=0;j<a.length();j++)
+    {
+        if(a.charAt(j)==' ')
+        {
+            System.out.print(a.charAt(j));
+            c++;
+        }
+        else{
+            System.out.print(a.charAt(j));
+        }
+    }
+    System.out.println();
+    System.out.println("total Number of spaces="+ c);
+	}
+}
